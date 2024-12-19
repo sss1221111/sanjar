@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт на GitHub Pages</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .content {
+            padding: 50px;
+        }
+
+        .button {
+            background-color: #ff66b2;
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        .button:hover {
+            background-color: #ff3385;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Привет, это мой сайт на GitHub Pages!</h1>
+</header>
+
+<div class="content">
+    <p>Этот сайт размещен бесплатно на GitHub Pages. Просто и удобно для небольших проектов и портфолио.</p>
+    <a href="https://github.com" class="button">Посетить GitHub</a>
+</div>
+
+<footer>
+    <p>&copy; 2024. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
